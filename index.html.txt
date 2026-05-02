@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dental Studio - Rudrapur</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8fbff;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/clinic3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #00c6ff;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 14px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #00c6ff;
+    color: white;
+    padding: 40px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>THE DENTAL STUDIO</h1>
+    <p>Best Braces Treatment & Implant Centre in Rudrapur</p>
+    <a href="tel:09917111112" class="btn">Call Now</a>
+    <br>
+    <a href="https://wa.me/919917111112" class="btn">Book on WhatsApp</a>
+    <p style="margin-top:20px; font-size:12px;">*This is a sample website</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>We provide advanced dental care with modern technology and experienced doctors. From routine checkups to complex procedures, we ensure the best treatment for every patient.</p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Teeth Whitening</div>
+        <div class="card">Dental Implants</div>
+        <div class="card">Root Canal</div>
+        <div class="card">Braces Treatment</div>
+        <div class="card">Cosmetic Dentistry</div>
+        <div class="card">Teeth Cleaning</div>
+        <div class="card">Laser Dentistry</div>
+        <div class="card">Emergency Care</div>
+        <div class="card">Pediatric Dentistry</div>
+        <div class="card">Oral Surgery</div>
+        <div class="card">Dentures & Bridges</div>
+        <div class="card">Fillings & Sealants</div>
+    </div>
+</section>
+
+<section>
+    <h2>Clinic Gallery</h2>
+    <div class="gallery">
+        <img src="images/clinic1.jpg">
+        <img src="images/clinic2.jpg">
+        <img src="images/clinic3.jpg">
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 09917111112</p>
+    <p>📍 Nainital Rd, Opp OM Hospital, Rudrapur, Uttarakhand - 263153</p>
+</section>
+
+<footer>
+    <p>© 2026 The Dental Studio | Demo Website</p>
+</footer>
+
+</body>
+</html>
